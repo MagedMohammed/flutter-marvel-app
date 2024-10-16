@@ -7,11 +7,11 @@ final class CharactersInitial extends CharactersState {}
 
 final class CharactersLoaded extends CharactersState {
   final CharactersRepository charactersRepository;
-  CharactersLoaded({required this.charactersRepository});
+  CharactersLoaded(this.charactersRepository);
 
-  void getCharactersData() {
-    charactersRepository.getCharactersData().then((characters){
-      print(characters);
-    });
-  }
+  // void getCharactersData() {
+  //   charactersRepository.getCharactersData().then((characters){
+  //     print(characters);
+  //   });
+  // }
 }

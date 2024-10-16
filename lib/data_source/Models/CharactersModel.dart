@@ -154,11 +154,6 @@ class Results {
     }
     return data;
   }
-  // Override toString for better debugging
-  @override
-  String toString() {
-    return 'Results{name: $name, description: $description}';
-  }
 }
 
 class Thumbnail {
