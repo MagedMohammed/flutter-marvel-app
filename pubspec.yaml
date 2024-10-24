@@ -1,0 +1,26 @@
+name: marvelapp_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.7.0
+  flutter_bloc: ^8.1.6
+  json_annotation: ^4.8.0  # Version may vary, check for latest
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.3.3     # To generate code
+  json_serializable: ^6.6.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
